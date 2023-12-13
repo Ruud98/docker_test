@@ -1,0 +1,58 @@
+body{
+	background-color: deepskyblue;
+}
+
+div.tab {
+  background-color: #678;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+div.tab a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.tab a:hover {
+  background-color: darkslateblue;
+}
+
+.image{
+  	max-width: 20%;
+  	height: auto;
+  	border-radius: 4px;
+  	padding: 5px;
+  	float: right;
+  	margin-left: auto;
+  	margin-right: auto;
+
+  	object-position: 5px 100%
+}
+
+.bio{
+	text-align: justify;
+}
+
+.edu{
+	overflow: hidden;
+}
+
+.edu2{
+	
+}
+
+#cv{
+	background-color: maroon;
+	color: white;
+	padding: 20px 31px;
+	text-align: center;
+	text-decoration: blink;
+	display: inline-block;
+
+	align-self: left;
+}
+
+
